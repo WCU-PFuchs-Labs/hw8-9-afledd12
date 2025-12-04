@@ -18,7 +18,7 @@ public class TestGeneration
         gen.printBestTree();
         gen.printBestFitness();
         ArrayList<GPTree> topTen = gen.getTopTen();
-        System.out.println("\nTop Ten Fitness Values:");
+        System.out.print("\nTop Ten Fitness Values:");
 
         for (int i = 0; i < topTen.size(); i++)
             {
@@ -30,4 +30,5 @@ public class TestGeneration
                     }
             }
     }
+
 }
